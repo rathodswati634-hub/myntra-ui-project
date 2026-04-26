@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+h1 {
+    color: #ff3f6c;
+}
+
+.filters {
+    margin: 20px;
+}
+
+select, button {
+    padding: 10px;
+    margin: 5px;
+}
+button {
+    background: #ff3f6c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 0 10px gray;
+}
